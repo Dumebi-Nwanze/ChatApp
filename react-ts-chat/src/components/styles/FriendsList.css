@@ -1,0 +1,60 @@
+.friendList {
+  width: 35%;
+  padding: 10px 0px;
+  height: 90vh;
+}
+
+.friendList__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.close__chat {
+  color: white;
+  padding: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.close__chat:hover {
+  cursor: pointer;
+}
+
+.friendList__display {
+  margin-top: 10px;
+}
+
+.friendList__tile {
+  background-color: rgba(97, 236, 97, 0.5);
+  padding: 10px;
+  display: flex;
+  margin: 5px 0;
+  height: 90px;
+}
+.friendlist__tile:hover {
+  cursor: pointer;
+}
+.circle__avatar {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: 5px;
+}
+
+.listTile__title {
+  width: 50%;
+  overflow-x: hidden;
+}
+
+h3 {
+  font-size: 1.125rem;
+  word-wrap: break-word;
+}
+
+p {
+  font-size: 0.95rem;
+}

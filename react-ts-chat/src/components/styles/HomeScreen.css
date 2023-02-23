@@ -1,0 +1,27 @@
+.appBar {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.appBar > h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.logout__btn {
+  width: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20%;
+}
+
+.logout__btn:hover {
+  cursor: pointer;
+}
+
+.appBody {
+  display: flex;
+}

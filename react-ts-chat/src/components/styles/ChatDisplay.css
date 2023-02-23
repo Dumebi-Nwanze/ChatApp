@@ -1,0 +1,72 @@
+.chatDisplay {
+  background-color: bisque;
+  height: 90vh;
+  width: 65%;
+  padding: 10px 5px;
+}
+.nochatDisplay {
+  background-color: bisque;
+  height: 90vh;
+  width: 65%;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chats__list {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+.textInput__container {
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textInput {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  min-width: 80%;
+}
+
+.sendBtn {
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.msg__bubble {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  max-width: 50%;
+
+  align-self: flex-start;
+}
+
+.left {
+  align-self: flex-start;
+  border-radius: 5px 5px 5px 0px;
+  background-color: green;
+}
+
+.right {
+  align-self: flex-end;
+  border-radius: 5px 5px 0px 5px;
+  background-color: rgb(36, 69, 219);
+}
+
+.msg__bubble > p {
+  color: white;
+  font-weight: 700;
+}
